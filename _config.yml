@@ -6,12 +6,12 @@ title: Not So Sexy Programming
 email: felipejsm41@gmail.com
 name: Felipe Moysés
 description: >- # this means to ignore newlines until "baseurl:"
-  Doing some IT-related stuff with some tools but also working on some other non-it related topics.
+  Doing some IT-related stuff with some tools but also working on some other non-it related topics.   
 keywords: [Java, AWS, Microservices, Translations]
 baseurl: '' # the subpath of your site, e.g. /`blog
 url: 'nssp' # the base hostname & protocol for your site, e.g. http://example.com
 domain: 'notssp.github.io' # the domain name for your site, e.g. example.com
-language: en, pt
+language: en
 # Supported languages list:
 # en: English
 # de: Deutsche (German)
