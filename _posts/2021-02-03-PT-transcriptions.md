@@ -6,9 +6,11 @@ date:   2021-02-05
 categories: [Transcriptions]
 ---
 As a non-native English speaker living in a non-English speaking country   
-I need to constantly keep my English skills fresh and updated   
-So I’ll post my English content transcription here on this blog   
-Initially, it’ll be podcast’s content but it can be something else in the future That’s something not carved in stone    
+It's a constant ~~headache~~ challenge to maintain my actual level      
+I need to constantly keep my English skills fresh  
+So I’ll post my English content transcription here on this blog     
+Initially, it’ll be podcast’s content but it can be something else in the future   
+Isn't carved in stone    
 In this segment, I’ll be practicing and improving my listening(main goal) and writing(secondary goal) skills   
 How it will work?   
 It’ll be a straight forward approach   
