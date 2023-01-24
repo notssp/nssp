@@ -7,23 +7,23 @@ categories: [Spring]
 tag: [springdata,java,paging,repository]
 ---
 #### TL;DR
-  O método _findAll_ da _interface_ **PagingAndSortingRepository**, faz uma _query_/busca adicional à sua base de dados.  
+O método _findAll_ da _interface_ **PagingAndSortingRepository**, faz uma _query_/busca adicional à sua base de dados.  
 
 ####  Serendipidade no _App_ do Pássaro Azul
 
-    Esses dias durante um _doom scrolling_ no _twitter_, me deparei com um _post_ interessante sobre o _PagingAndSortingRepository_ do Spring Data, basicamente era um alerta sobre a execução de uma _query_ adicional(um simples _count_) no método _findAll_, e, como isso dependendo do teu cenário, poderia ser um gargalo.
+Esses dias durante um _doom scrolling_ no _twitter_, me deparei com um _post_ interessante sobre o _PagingAndSortingRepository_ do Spring Data, basicamente era um alerta sobre a execução de uma _query_ adicional(um simples _count_) no método _findAll_, e, como isso dependendo do teu cenário, poderia ser um gargalo.
 
 ![Post do Simon Martinelli - simas_ch](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/z1tri6x1cat0rzumubc5.png)
 > Esteja atent@ que o método _findAll_ do _PagingAndSortingRepository_ do Spring Data realizará uma query adicional, se você possue uma consulta lenta, ela levará o dobro do tempo!
 
 #### Vendo para crer
-    Isso me chamou atenção e fui buscar informações.
+Isso me chamou atenção e fui buscar informações.
 Olhei na [documentação](https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/PagingAndSortingRepository.html) e não encontrei os detalhes específicos sobre isso.
 Resolvi subir um projeto que já tenho preparado para vários tipos de experimentações e rodar esse cenário   
 
 **Big surprise**: realmente, executa a _query_ adicional de _count_   
 
-    Conforme o autor do _twit_ responde uma possível contramedida é utilizar _getBy(Pageable pageable)_ porém acaba abrindo mão dos metadados do objeto _Page_.   
+Conforme o autor do _twit_ responde uma possível contramedida é utilizar _getBy(Pageable pageable)_ porém acaba abrindo mão dos metadados do objeto _Page_.   
 
 #### _Mise en Place_
 ![mise en place](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tl4y37p59km0dho1dlc6.jpg) Foto de <a href="https://unsplash.com/pt/@rudy_issa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rudy Issa</a> na <a href="https://unsplash.com/pt-br/fotografias/KVacTm0QeEA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>   
@@ -270,7 +270,8 @@ Pois o que você perde ao não utilizar a paginação são dados como número to
   "first": false,
   "empty": false
 ```
-    Espero que tenha sido interessante essa análise   
+
+Espero que tenha sido interessante essa análise   
 E você, vai pesar se vale ou não a pena na tua próxima codificação?
 
 Obrigado.
