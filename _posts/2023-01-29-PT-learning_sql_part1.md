@@ -26,7 +26,7 @@ A dupla [Obsidian](https://obsidian.md/) + Terminal do windows, são e serão mi
 
 #### Relatório de Progresso
 Para fins de apresentação e acompanhamento
-Irei disponibilizar via blog posts e commits num repositório do github, as minhas anotações e _queries_   
+Irei disponibilizar via blog posts e commits num [repositório](https://github.com/felipejsm/learning_sql_book) do github, as minhas anotações e _queries_   
 Creio que isso irá me motivar, manter focado e organizado quanto ao estudo e prática    
 
 bye.
