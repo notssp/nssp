@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Um olhar sobre PagingAndSortingRepository"
+title:  "Aprendendo SQL: Parte 0"
 date:   2023-01-29
 #last_modified_at: 2023-01-21
-categories: [SQL]
+categories: [SQL, SERIES]
 tag: [sql]
 ---
 #### Tirando a poeira do SQL e além     
